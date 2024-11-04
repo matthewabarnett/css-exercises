@@ -15,6 +15,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
+ 
 }
 
 .profile-image {
@@ -52,16 +54,21 @@ ul {
 }
 .container {
   display: flex;
-  justify-content: flex-end; /* Align content to the end of the container */
-  gap: 16px; /* Add some space between the button and profile image */
+  justify-content: flex-end; 
+  gap: 16px; 
   align-items: center;
 }
 .links {
   list-style-type: none;
   display: flex;
-  gap: 16px; /* Spacing between links */
+  gap: 16px; 
   margin: 0;
   padding: 0;
-  align-items: center; /* Optional for vertical alignment */
+  align-items: center; 
   justify-content: flex-start;
+}
+.left-container{
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
 }
