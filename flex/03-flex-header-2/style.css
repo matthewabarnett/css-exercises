@@ -56,3 +56,12 @@ ul {
   gap: 16px; /* Add some space between the button and profile image */
   align-items: center;
 }
+.links {
+  list-style-type: none;
+  display: flex;
+  gap: 16px; /* Spacing between links */
+  margin: 0;
+  padding: 0;
+  align-items: center; /* Optional for vertical alignment */
+  justify-content: flex-start;
+}
