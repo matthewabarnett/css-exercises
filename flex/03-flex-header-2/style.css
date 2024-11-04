@@ -13,6 +13,8 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .profile-image {
@@ -47,4 +49,10 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+}
+.container {
+  display: flex;
+  justify-content: flex-end; /* Align content to the end of the container */
+  gap: 16px; /* Add some space between the button and profile image */
+  align-items: center;
 }
