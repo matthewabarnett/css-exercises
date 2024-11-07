@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -59,4 +61,19 @@ li {
 
 .footer {
   display: flex;
+  background-color:#eeeeee;
+  justify-content: space-between;
+}
+
+.footer .left-links{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+
+}
+.footer .right-links{
+  display:flex;
+  justify-content:flex-end;
+  gap: 10px;
+
 }
