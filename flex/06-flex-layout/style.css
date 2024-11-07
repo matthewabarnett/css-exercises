@@ -33,3 +33,19 @@ a {
 li {
   list-style-type: none;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header .left-links{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+
+}
+.header .right-links{
+  display:flex;
+  justify-content:flex-end;
+  gap: 10px;
+
+}
